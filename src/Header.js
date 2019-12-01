@@ -26,6 +26,9 @@ export default withRouter(({ location: { pathname } }) => (
             <Item selected={pathname === "/hook2"}>
                 <Link to="/hook2">Hook2</Link>
             </Item>
+            <Item selected={pathname === "/hook3"}>
+                <Link to="/hook3">Hook3</Link>
+            </Item>
         </List>
     </Header>
 ));
